@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+form {
+  padding: 2rem;
+}
+
+input {
+  border: 1px solid #dbdbdb;
+  margin-left: 0.5em;
+  width: 250px;
+  height: 30px;
+}
+
+.add {
+  border: 1px solid #dbdbdb;
+  margin-left: 0.5em;
+  width: 60px;
+  height: 30px;
+}
+
+.main-top {
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+  height: 110px;
+  font-size: 2.5rem;
+  background-color: darksalmon;
+}
+
+.main-top .fa-calendar-times {
+  color: #fcefb7;
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+}
+
+.top-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #d15242;
+  border-radius: 50%;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  color: white;
+}
+
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  color: white;
+}
+
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.8;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: burlywood;
+}
+
+.habit-delete {
+  font-size: 2rem;
+  color: brown;
+}
+
+.reset {
+  background-color: darkcyan;
+  width: 90px;
+  height: 40px;
+  margin-left: 3rem;
+}
