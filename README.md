@@ -17,6 +17,10 @@
 1. PureComponent 사용과 shollow comparison의 이해를 통한 render 최적화
 2. Function component & memo
 
+### Study 📌
+`PureComponent 정리`
+- Velog : <https://velog.io/@sohyeonbak_oly/PureComponent%EC%9D%98-%EC%9D%B4%ED%95%B4>
+
 ### 배포
 `Github`
 - Github Link : <https://sohyeonbak.github.io/Habit-Tracker/>
